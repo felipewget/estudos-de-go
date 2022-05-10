@@ -1,0 +1,38 @@
+Go foi criado num conceito minimalista, todas as variaveis setadas precisam ser usadas
+
+GOROOT é onde foi instalado
+GOPATH é onde vai ser o workspace
+
+pasta bin é onde fica os executaveis
+pasta pkg é onde fica os compilados
+src onde fica os vendors... github e etc
+
+
+todo programa em go precisa de um package... o principal fica no main
+package main
+podemos usar pacotes da linglagem ou baixada
+a func main() é onde a aplicação é iniciada
+
+Comentarios
+// <- comentario 1 linha
+/*
+Multiplas linhas... legal
+igual as outras linguagens
+*/
+
+import "fmt" // https://pkg.go.dev/fmt
+ou 
+import(
+    "fmt"
+)
+
+/*
+	go -> mostra comandos disponiveis pro go
+	go help COMMAND detalhes de um comando
+	go get
+	go version pega a versao
+	godoc -http:6060 -> documentacao offline
+	go run arquivo go...
+	go vet arquivo.go -> faz uma varredura e aponta possiveis erros no codigo
+	go build arquivo.go -> cria um executavel
+*/
