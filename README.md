@@ -15,3 +15,7 @@ sendo cada uma referente a um assunto abordado no curso
     └── README.md
 
 > This repo will be in portuguese because it's only to me
+
+# Instalação do Go
+Basta acessar o site deles, fazer o download e executar o instalador
+https://go.dev/
