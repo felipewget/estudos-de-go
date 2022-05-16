@@ -36,4 +36,6 @@ func main() {
 
 	// &variavel pega o endereco, o ponteiro
 
+	// nao pode fazer aritmetica em cima de um ponteiro, apenas se for *p
+
 }
