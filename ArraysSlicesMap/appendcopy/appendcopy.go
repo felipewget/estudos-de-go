@@ -14,6 +14,8 @@ func main() {
 	fmt.Println(array, slice)
 
 	slice2 := make([]int, 2)
+
+	// copy nao aumenta o slice
 	copy(slice2, slice)
 
 	fmt.Println(slice2)
