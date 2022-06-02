@@ -1,0 +1,18 @@
+// Os processadores estavam chegando no limite e precisava de mais processadores trabalhando juntos pra dar mais performance entao
+// GO tras uma abordagem multi core
+
+// -> Paralelismo é fazer 2 coisas ao msm tempo(assincronos)
+// -> Concorrencia é administrar varias tarefas e isso acontecer num unico processador
+
+// CONCORRENCIA -> Computador com um unico processador, usa Concorrencia, divide o processador pra multiplas tarefas(uma por vez)
+// PARALELISMO -> multi processador
+
+// Paralelismo é mais custoso que a concorrencia3
+
+
+-> paralelismo executa codigos simultaneamente, dados estão sendo processados ao msm tempo só que cada um em processadores diferentes
+-> concorrencia é intercalar(adm) varios processos ao mesmo tempo e isso pode ocorrer em um unico processador
+
+Concorrencia viabiliza paralelismo 
+
+é possivel que a concorrencia seja melhor que o paralelismo em algum casos como overhead adicional, pegar algo simples e jogar pra um processador só
