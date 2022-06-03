@@ -16,3 +16,9 @@
 Concorrencia viabiliza paralelismo 
 
 é possivel que a concorrencia seja melhor que o paralelismo em algum casos como overhead adicional, pegar algo simples e jogar pra um processador só
+-> paralelismo usa mais do SO e do hardware.
+
+faz parte da linguagem de GO
+-> concorrencia é uma forma de modelar o seu programa
+-> paralelismo
+    - posso ao inves de fazer 7 querys com um processador, fazer 7 querys de forma paralela e retornar quando cada processador trazer o restultado
