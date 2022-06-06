@@ -8,8 +8,14 @@ const erro_padrao = "Valor esperado %v, mas o resultado foi %v"
 /*
 	go test .\matematica.go .\matematica_test.go -run=TestMedia
 	go test .\matematica.go .\matematica_test.go
+
+
+	- Funcao de teste comeca com TestAGUMACOISA
+	- Arquivo de execucao do teste tem o _test.go
+	- paramtros do teste é t *testing.T
 */
 
+// É necessario comecar com Test
 func TestMedia(t *testing.T) {
 
 	valor_esperado := 7.28
